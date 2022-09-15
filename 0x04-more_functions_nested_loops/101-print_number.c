@@ -8,5 +8,8 @@
 
 void print_number(int n)
 {
+	while (n){
+		_putchar(n + '0');
+	}
 	return (0);
 }
